@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_updated_by","label":"Trigger➛NeedIt Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit","column_name":"sys_updated_by"},{"name":"Created or Updated_1.current.work_notes","label":"Trigger➛NeedIt Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"x_58872_needit_needit","column_name":"work_notes"},{"name":"Created or Updated_1.current.number","label":"Trigger➛NeedIt Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit","column_name":"number"},{"name":"Created or Updated_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"}]</label_cache>
+        <name>TestFlowDesigner</name>
+        <parent_flow display_value="TestFlowDesigner">7290f73cdb0303009606771c8c961949</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-13 06:59:10</sys_created_on>
+        <sys_id>bdf2fbb8db4303009606771c8c9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestFlowDesigner</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_bdf2fbb8db4303009606771c8c9619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-13 06:59:10</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
