@@ -16,9 +16,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_58872_needit_needit">u_when_needed&gt;javascript:gs.endOfToday()^EQ<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.endOfToday()"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter_condition>
+        <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
         <name>AbortCreateAfterNow</name>
@@ -34,10 +32,10 @@
 
 	var rightnow=new GlideDateTime();
 	var whenneed=new GlideDateTime(current.getValue('u_what_needed'));
-	if(whenneed.after(rightnow))
+	if(whenneed.before(rightnow))
 	{
 		gs.addErrorMessage("Error");
-		current.isActionAborted(true);
+		current.SetActionAborted(true);
 	}
 	// Add your code here
 
@@ -48,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>58d6e5a14f621300f76d045e9310c797</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>AbortCreateAfterNow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -56,7 +54,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_58d6e5a14f621300f76d045e9310c797</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-07 04:31:16</sys_updated_on>
+        <sys_updated_on>2018-06-07 04:45:06</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
