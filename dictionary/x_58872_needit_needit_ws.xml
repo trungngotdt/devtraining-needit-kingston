@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Needit WS" max_length="40" name="x_58872_needit_needit_ws" type="collection">
+        <element attributes="import_attribute_name=u_description,edge_encryption_enabled=true" label="description" max_length="40" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=u_type,edge_encryption_enabled=true" label="type" max_length="40" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=u_what,edge_encryption_enabled=true" label="What" max_length="40" name="u_what" type="string"/>
+        <element attributes="import_attribute_name=u_when,edge_encryption_enabled=true" label="when" max_length="40" name="u_when" type="string"/>
+        <element attributes="import_attribute_name=u_who,edge_encryption_enabled=true" label="Who" max_length="40" name="u_who" type="string"/>
+    </element>
+</database>
